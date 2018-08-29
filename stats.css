@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Roboto');
+
+
+
+/*
+
+    [PANEL STAFF]
+
+ */
+
+.staff-container{
+    background: #fff;
+    padding-top: 15px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+}
+
+div.staff-container .panel, div.staff-container .panel-heading, div.stats-container .panel, div.stats-container .panel-heading{
+
+    -webkit-border-radius: 0;
+
+    -moz-border-radius: 0;
+
+    border-radius: 0;
+
+}
+
+.panel{
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.col-md-8 {
+    background: #fff;
+    padding-top: 15px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    margin-left: 9px;
+    width: 66%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div.staff-container .panel { border:none; }
+
+div.staff-container .panel-body{ padding:0; }
+
+div.staff-container .panel-heading {
+
+    border-bottom: 3px solid #FFF;
+
+    color: #FFF;
+
+    font-weight: 700;
+
+}
+
+div.staff-container .panel-title{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700 !important;
+
+    text-transform: uppercase !important;
+
+}
+
+div.staff-container .staff-box { padding: 5px 15px; }
+
+div.staff-container .staff-description, div.staff-container .panel-body img{
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+}
+
+div.staff-container .panel-body img{
+
+    -webkit-border-radius: 4px;
+
+    -moz-border-radius: 4px;
+
+    border-radius: 4px;
+
+}
+
+div.staff-container .staff-description { margin-left:10px; }
+
+div.staff-container .staff-description span { display: block; }
+
+div.staff-container .staff-description span.function { font-family: Roboto, sans-serif; }
+
+div.staff-container .panel-footer {
+
+    background: #ecf0f1;
+
+    border-top: none;
+
+    border-bottom-color: #bdc3c7;
+
+    font-family: Roboto, sans-serif;
+
+    color: #757c7d;
+
+}
+
+
+
+
+
+div.staff-container .panel .staff-description span.username {
+
+    font-weight: 700;
+
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+
+div.staff-container .panel-danger .panel-heading { border-bottom-color: #d23232; background: #fe3f3f; }
+
+div.staff-container .panel-danger .staff-description span.username { color: #fe3f3f; }
+
+div.staff-container .panel-primary .panel-heading { border-bottom-color: #157882; background: #1da9b6; }
+
+div.staff-container .panel-primary .staff-description span.username { color: #1da9b6; }
+
+div.staff-container .panel-info .panel-heading { border-bottom-color: #0829b3; background: #0b39fb; }
+
+div.staff-container .panel-info .staff-description span.username { color: #0b39fb; }
+
+div.staff-container .panel-warning .panel-heading { border-bottom-color: #d0bb00; background: #ffe600; }
+
+div.staff-container .panel-warning .staff-description span.username { color: #ffe600; }
+
+div.staff-container .panel-success .panel-heading { border-bottom-color: #015401; background: #008c00; }
+
+div.staff-container .panel-success .staff-description span.username { color: #008c00; }
+
+div.staff-container .panel-orange .panel-heading { border-bottom-color: #ca6b00; background: #ff8801; }
+
+div.staff-container .panel-orange .staff-description span.username { color: #ff8801; }
+
+div.staff-container .panel-violet .panel-heading { border-bottom-color: #009a19; background: #02cc23; }
+
+div.staff-container .panel-violet .staff-description span.username { color: #02cc23; }
+
+div.staff-container .panel-dark-gris .panel-heading { border-bottom-color: #a98976; background: #d8b098; }
+
+div.staff-container .panel-dark-gris .staff-description span.username { color: #d8b098; }
+
+/*
+
+    [/PANEL STAFF]
+
+ */
+
+
+
+/*
+
+    [PANEL STATS]
+
+ */
+
+div.stats-container .panel { border:none; }
+
+div.stats-container .panel-body{ padding: 20px 0; margin: 0; }
+
+div.stats-container .panel-heading {
+
+    border-bottom: 3px solid #95a5a6;
+
+    font-weight: 700;
+
+    background: #d2d2d2;
+
+}
+
+div.stats-container .panel-title{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700 !important;
+
+    text-transform: uppercase !important;
+
+    color: #5d5f61;
+
+}
+
+div.stats-container .stats-seperator { margin: 20px 0; }
+
+div.stats-container .name, div.stats-container .value {
+
+    display: block;
+
+    text-align: center;
+
+    font-family: Roboto, sans-serif;
+
+    text-transform: uppercase;
+
+    font-size: 16px;
+
+}
+
+div.stats-container .name {
+
+
+
+}
+
+div.stats-container .value {
+
+    font-weight: 700;
+
+    font-size: 45px;
+
+    line-height: 35px;
+
+    font-family: "Open Sans", sans-serif;
+
+}
+
+/*
+
+    [/PANEL STATS]
+
+ */
